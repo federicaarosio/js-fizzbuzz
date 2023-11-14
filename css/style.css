@@ -4,10 +4,42 @@
     padding: 0;
 }
 
-div.wrapper {;
-    padding: 2rem;
-    margin: 0 auto;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+main {
+    background-color: #083b4c;
+}
+
+main h1 {
     text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+div.container {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+div.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row-FizzBuzz {
