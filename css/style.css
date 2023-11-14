@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper {;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row-FizzBuzz {
+    background-color: #f0466f;
+}
+
+.row-Fizz {
+    background-color: #0cd6a1;
+}
+
+.row-Buzz {
+    background-color: #ffd166;
+}
+
+.row-number {
+    background-color: #1389b2;
+}
