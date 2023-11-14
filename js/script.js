@@ -1,9 +1,12 @@
-// All'interno ciclo for scrivo numeri da 1 a 100
+for(let i = 1; i < 101; i++){
 
-    //Se
-        //il numero / 3 dà resto 0
-            // allora stampo in console "Fizz"
-        //il numero / 5 dà resto 0
-            // allora stampo in console "Buzz"
-        // il numero è sia /3 e /5 con resto 0 (uso un &&)
-            //allora stampo in console "FizzBuzz"
+    if (i % 3 == 0 && i % 5 == 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 == 0) {
+        console.log("Fizz");
+    } else if (i % 5 == 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
